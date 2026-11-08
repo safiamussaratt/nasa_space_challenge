@@ -218,3 +218,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Streamlit secrets (never commit these)
+.streamlit/secrets.toml
+
+# Big raw data downloads (keep the small jezero_grid.json!)
+*.tif
+*.tiff
+*.img
+
+# Editor / OS clutter
+.vscode/
+.DS_Store
